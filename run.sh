@@ -1,1 +1,1 @@
-cd wwwroot && python3 -m http.server
+cd docs && python3 -m http.server
