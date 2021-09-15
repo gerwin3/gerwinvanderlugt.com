@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Not Found</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <style type="text/css">
+      /*
+      color palette:
+        red:b23a52/f24840
+        green:789b6a/80c470
+        blue:2a7fac/4196ff
+        yellow:b9ac4a/ffeb62
+      */
+      html, body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #2b2d2e;
+        font-family: 'Menlo Regular', 'Consolas', monospace;
+        color: white;
+      }
+      .mobile-only {
+        display: none;
+      }
+      @media only screen and (max-width: 768px) {
+        .mobile-only {
+          display: inherit;
+        }
+      }
+      h1 {
+        margin-top: 48px;
+        margin-bottom: 18px;
+        color: #f24840;
+        font-weight: bold;
+      }
+      @media only screen and (max-width: 768px) {
+        h1 {
+          font-size: 16pt;
+        }
+      }
+      a {
+        color: #ffeb62;
+      }
+      #container {
+        position: relative;
+        max-width: 860px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 100%;
+        padding-bottom: 72px; /* for footer */
+        overflow: hidden;
+      }
+      @media only screen and (max-width: 768px) {
+        #container {
+          padding-bottom: 96px; /* for footer */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div style="text-align: center;">
+        <h1>404 Page Not Found</h1>
+        <a href="/">Back home</a>
+      </div>
+    </div>
+  </body>
+</html>
