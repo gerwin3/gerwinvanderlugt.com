@@ -7,19 +7,13 @@
     <meta name="description" content="Co-founder of Oddity.ai, full stack developer doing deep learning, performance-critical systems and interested in technology.">
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <style type="text/css">
-      /*
-      color palette:
-        red:b23a52/f24840
-        green:789b6a/80c470
-        blue:2a7fac/4196ff
-        yellow:b9ac4a/ffeb62
-      */
+      /* color scheme is catppuccin mocha if you're wondering */
       html, body {
         margin: 0px;
         padding: 0px;
-        background-color: #2b2d2e;
-        font-family: 'Menlo Regular', 'Consolas', monospace;
-        color: white;
+        background-color: #1e1e2e; /* base */
+        font-family: 'Iosevka', 'Menlo Regular', 'Roboto Mono', 'Consolas', monospace;
+        color: #cdd6f4; /* text */
       }
       .mobile-only {
         display: none;
@@ -32,7 +26,7 @@
       h1 {
         margin-top: 48px;
         margin-bottom: 18px;
-        color: #80c470;
+        color: #b4befe; /* lavender */
         font-weight: bold;
       }
       @media only screen and (max-width: 768px) {
@@ -41,12 +35,12 @@
         }
       }
       h4 {
-        color: #f24840;
+        color: #f5c2e7; /* pink */
         font-style: italic;
         font-size: 1em;
       }
       a {
-        color: #ffeb62;
+        color: #89b4fa; /* blue */
       }
       #container {
         position: relative;
@@ -73,7 +67,7 @@
         bottom: 12px;
       }
       .subtle {
-        color: #888;
+        color: #a6adc8; /* overlay 0 */
         font-size: 10pt;
       }
     </style>
@@ -86,38 +80,40 @@
       </div>
       <h4> &gt; Synopsis</h4>
       <p>
-        Co-Founder of <a href="https://oddity.ai/" target="_blank">Oddity.ai</a> and experienced software developer logistics systems, deep learning solutions & virtual reality among others.
-        I build webshops, management portals, machine learning frameworks and virtual reality platforms from scratch;
-        worked on large logistical systems and international production-critical systems. I graduated cum laude as MSc Business Informatics.
-        Currently spending most of my time developing innovative AI applications with Oddity.ai.
+        Co-founder of <a href="https://oddity.ai/" target="_blank">Oddity.ai</a>
+        and polyglot software developer. My main interests are high performance
+        software such as deep learning inference systems, video processing,
+        and systems programming. My favorite programming languages are Rust and
+        Zig, but I also work with C, C++, C# and web stuff if I have to. I used to
+        be self-employed and built webshops, virtual reality and logistics
+        platforms.
       </p>
-      <h4> &gt; What I work on</h4>
+      <h4> &gt; Oddity.ai</h4>
       <p>
-        <span class="subtle">[01-01-2019 -> now]</span><br/>
-        As lead developer at <a href="https://oddity.ai" target="_blank">Oddity.ai</a>, I work on bleeding-edge behavioral analysis algorithms.
-        We have to bring deep learning video systems to production that process dozens of real-time feeds simultaneously (per server) with less than half a second of lag.
-        Our violence recognition algorithm beats all academic and private algorithms currently in existence, and has near-perfect accuracy.
+        Oddity.ai is the only commercial solution for actual real-time violence
+        detection on CCTV cameras. Unlike other solutions, it <strong>actually
+        works</strong> and has a false positive rate of less than 0.1 per camera
+        per day. It is deployed in multiple city centers, transporation hubs,
+        prisons, and more places where there is a risk of violence.
       </p>
+      <h4> &gt; Open Source</h4>
       <p>
-        <span class="subtle">[01-04-2017 -> 2020]</span><br/>
-        With <a href="https://vr-house.nl" target="_blank">VR House</a>, I work on various platforms and products. Most recently, <a href="https://ez-360.com" target="_blank">EZ360</a>, a cloud-based content distribution
-        system for VR headsets has become very successfuly. Check out the <a href="https://portal.ez-360.com" target="_blank">portal</a> here.
-      </p>
-      <p>
-        <span class="subtle">[01-05-2014 -> 2020]</span><br/>
-        At <a href="https://cleansecure.com" target="_blank">CleanSecure</a>, I worked on the CleanMonitor (a leading traceability tool for food and chemical transports),
-        the CleanSecure app and some TBA projects.
+        I am the author of <a href="https://github.com/oddity-ai/video-rs" target="_blank">video-rs</a>, a somewhat popular Rust video library on top of ffmpeg.
+        Take a look at <a href="https://github.com/oddity-ai/rave" target="_blank">rave</a> too.
+        It is my dream that someday most of the video stack can be written in pure Rust (it will take a while).
+        I also work on <a href="https://github.com/oddity-ai/async-cuda" target="_blank">async-cuda</a> and <a href="https://github.com/oddity-ai/async-tensorrt" target="_blank">async-tensorrt</a>.
+        Not sure yet if wrapping the CUDA API in a layer of async is a smart idea, but it works!
       </p>
       <h4> &gt; Skills</h4>
       <p>
-        My primary programming languages are Rust, C#, C++ and Python. I also work with JavaScript, TypeScript, Java, C and SQL.
+        My primary programming languages are Rust, C#, C, C++, Zig and Python. I also work with JavaScript, TypeScript and SQL.
         I have experience with all three big cloud-platforms (Azure, AWS, GCP).
-        My favourite technologies are Linux, PyTorch, ASP.NET (the .NET Core one), Django, Angular, MongoDB, OpenCV, ffmpeg (in no particular order).
+        My favorite technologies are Linux, PyTorch, CUDA, NixOS and ffmpeg.
+        I'm a terminal nerd and <a href="https://github.com/gerwin3/nixcfg" target="_blank">use NixOS with Sway</a> and slowly replacing everything with CLI's and TUI's.
       </p>
       <h4> &gt; Find me on</h4>
       <ul>
         <li class="pre">GitHub         : <a href="https://github.com/gerwin3" target="_blank">github.com/gerwin3</a></li>
-        <li class="pre">StackOverflow  : <a href="https://stackoverflow.com/users/1509248/gerwin" target="_blank">stackoverflow.com/users/1509248/gerwin</a></li>
         <li class="pre">LinkedIn       : <a href="https://www.linkedin.com/in/gerwin3" target="_blank">linked.com/in/gerwin3</a></li>
         <li class="pre">Oddity.ai      : <a href="https://oddity.ai" target="_blank">oddity.ai</a></li>
       </ul>
@@ -130,7 +126,7 @@
         <li class="pre">Phone           : <a href="tel:+31650618507">+31 6 50 61 85 07</a></li>
       </ul>
       <div class="footer" style="text-align: center;">
-        <span class="subtle">/* */</span>
+        <span class="subtle">/* EOF */</span>
       </div>
     </div>
   </body>
